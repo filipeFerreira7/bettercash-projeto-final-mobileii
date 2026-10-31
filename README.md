@@ -16,8 +16,8 @@ Projeto desenvolvido para a disciplina **Mobile II (Formação Mobile Dart/Flutt
 
 ### Links de Referência do Figma
 - **Sample App Web / Protótipo:** [https://narrow-portal-92823724.figma.site](https://narrow-portal-92823724.figma.site)
+- **BetterCash Design System (Figma):** [Figma Design System](https://www.figma.com/design/Yog7aDCMgxzW6ZShDiH1nI/BetterCash---Design-System-Figma?node-id=4-12668&t=aO9dKHmQIy03abqx-1)
 - **UI Reference (Free Finance UI Kit):** [Figma Design Kit](https://www.figma.com/design/DHXVVUu3XT6Zr4BUN2isBd/Free-Finance-UI-Kit--Community---Copy-)
-- **Design System:** [Figma Design System](https://www.figma.com/design/rUdlsvFRq93lD2hKOrfTqL/Design-System--Community---Copy-)
 
 ---
 
