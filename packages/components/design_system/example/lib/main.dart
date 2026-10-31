@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'pages/buttons_page.dart';
 import 'pages/inputs_page.dart';
 import 'pages/lists_page.dart';
+import 'pages/showcase_page.dart';
 import 'pages/states_page.dart';
 import 'pages/tokens_page.dart';
 
@@ -21,7 +22,7 @@ class GalleryApp extends StatelessWidget {
     return ValueListenableBuilder<ThemeMode>(
       valueListenable: themeMode,
       builder: (context, mode, _) => MaterialApp(
-        title: 'Galeria',
+        title: 'BetterCash Design System',
         debugShowCheckedModeBanner: false,
         theme: AppTheme.light(),
         darkTheme: AppTheme.dark(),
@@ -36,6 +37,7 @@ class GalleryHome extends StatelessWidget {
   const GalleryHome({super.key});
 
   static final _pages = <({String title, IconData icon, Widget page})>[
+    (title: '⭐ Protótipo Completo (Design System v1.1)', icon: Icons.star_rounded, page: const ShowcasePage()),
     (title: 'Tokens', icon: Icons.palette_outlined, page: const TokensPage()),
     (title: 'Botões', icon: Icons.smart_button, page: const ButtonsPage()),
     (title: 'Campos', icon: Icons.edit_outlined, page: const InputsPage()),
@@ -46,7 +48,7 @@ class GalleryHome extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return AppScaffold(
-      title: 'Galeria',
+      title: 'Design System Gallery',
       actions: const [ThemeModeButton()],
       padded: false,
       body: ListView.separated(
@@ -55,8 +57,13 @@ class GalleryHome extends StatelessWidget {
         itemBuilder: (context, index) {
           final item = _pages[index];
           return ListTile(
-            leading: Icon(item.icon),
-            title: Text(item.title),
+            leading: Icon(item.icon, color: index == 0 ? Theme.of(context).colorScheme.primary : null),
+            title: Text(
+              item.title,
+              style: TextStyle(
+                fontWeight: index == 0 ? FontWeight.bold : FontWeight.normal,
+              ),
+            ),
             trailing: const Icon(Icons.chevron_right),
             onTap: () =>
                 Navigator.of(context)
