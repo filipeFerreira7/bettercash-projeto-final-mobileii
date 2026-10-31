@@ -51,6 +51,11 @@ abstract final class AppTypography {
     fontWeight: FontWeight.w600,
     height: 1.2,
   );
+  static const TextStyle labelMedium = TextStyle(
+    fontSize: 13,
+    fontWeight: FontWeight.w600,
+    height: 1.2,
+  );
   static const TextStyle labelSmall = TextStyle(
     fontSize: 11,
     fontWeight: FontWeight.w600,

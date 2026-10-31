@@ -1,15 +1,24 @@
 /// Design system of the Carteira app: tokens, theme and components.
 library;
 
+export 'src/components/alert_banner.dart';
 export 'src/components/app_avatar.dart';
 export 'src/components/app_button.dart';
 export 'src/components/app_scaffold.dart';
+export 'src/components/app_segmented_control.dart';
 export 'src/components/app_text_field.dart';
 export 'src/components/balance_card.dart';
+export 'src/components/better_cash_logo.dart';
 export 'src/components/category_bar.dart';
+export 'src/components/date_header.dart';
+export 'src/components/feedback_card.dart';
 export 'src/components/gap.dart';
+export 'src/components/header_return.dart';
 export 'src/components/money_text.dart';
+export 'src/components/month_selector_bar.dart';
 export 'src/components/password_field.dart';
+export 'src/components/preference_tile.dart';
+export 'src/components/quick_value_selector.dart';
 export 'src/components/section_header.dart';
 export 'src/components/state_view.dart';
 export 'src/components/transaction_tile.dart';
