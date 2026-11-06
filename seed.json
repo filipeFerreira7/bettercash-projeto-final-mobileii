@@ -1,0 +1,211 @@
+{
+  "users": [
+    {
+      "id": "usr_01",
+      "name": "Ana Ribeiro",
+      "email": "ana@bettercash.dev",
+      "password": "123456",
+      "avatarUrl": null,
+      "createdAt": "2024-03-11T09:00:00Z",
+      "transactions": [
+        {
+          "id": "tx_0001",
+          "type": "income",
+          "amount": 8500.0,
+          "description": "Salário Acme Tecnologia",
+          "category": "Salário",
+          "date": "2026-09-05T09:00:00Z",
+          "note": "Salário mensal",
+          "account": "Itaú",
+          "toAccount": null
+        },
+        {
+          "id": "tx_0002",
+          "type": "income",
+          "amount": 1026.55,
+          "description": "Freela Design System",
+          "category": "Outros",
+          "date": "2026-09-15T16:30:00Z",
+          "note": "Projeto de extensão web",
+          "account": "Nubank",
+          "toAccount": null
+        },
+        {
+          "id": "tx_0003",
+          "type": "expense",
+          "amount": 3027.16,
+          "description": "Aluguel & Condomínio",
+          "category": "Moradia",
+          "date": "2026-09-01T08:00:00Z",
+          "note": "Vencimento dia 1º",
+          "account": "Itaú",
+          "toAccount": null
+        },
+        {
+          "id": "tx_0004",
+          "type": "expense",
+          "amount": 306.7,
+          "description": "Mercado Pão de Açúcar",
+          "category": "Alimentação",
+          "date": "2026-09-27T14:32:00Z",
+          "note": "Compras da semana",
+          "account": "Nubank",
+          "toAccount": null
+        },
+        {
+          "id": "tx_0005",
+          "type": "expense",
+          "amount": 1533.5,
+          "description": "Supermercado do Mês",
+          "category": "Alimentação",
+          "date": "2026-09-10T11:15:00Z",
+          "note": "Rancho mensal",
+          "account": "Nubank",
+          "toAccount": null
+        },
+        {
+          "id": "tx_0006",
+          "type": "expense",
+          "amount": 920.0,
+          "description": "Combustível & Estacionamento",
+          "category": "Transporte",
+          "date": "2026-09-18T19:00:00Z",
+          "note": null,
+          "account": "Itaú",
+          "toAccount": null
+        },
+        {
+          "id": "tx_0007",
+          "type": "expense",
+          "amount": 260.0,
+          "description": "Jantar & Cinema",
+          "category": "Lazer",
+          "date": "2026-09-22T21:30:00Z",
+          "note": "Aniversário do Pedro",
+          "account": "Nubank",
+          "toAccount": null
+        },
+        {
+          "id": "tx_0008",
+          "type": "expense",
+          "amount": 282.68,
+          "description": "Farmácia & Saúde",
+          "category": "Saúde",
+          "date": "2026-09-25T10:00:00Z",
+          "note": null,
+          "account": "Itaú",
+          "toAccount": null
+        },
+        {
+          "id": "tx_0009",
+          "type": "transfer",
+          "amount": 300.0,
+          "description": "Reserva de Emergência",
+          "category": null,
+          "date": "2026-09-06T10:00:00Z",
+          "note": "Transferência para poupança",
+          "account": "Nubank",
+          "toAccount": "Itaú"
+        },
+        {
+          "id": "tx_0010",
+          "type": "income",
+          "amount": 8500.0,
+          "description": "Salário Acme Tecnologia",
+          "category": "Salário",
+          "date": "2026-08-05T09:00:00Z",
+          "note": "Salário mensal",
+          "account": "Itaú",
+          "toAccount": null
+        },
+        {
+          "id": "tx_0011",
+          "type": "expense",
+          "amount": 3027.16,
+          "description": "Aluguel & Condomínio",
+          "category": "Moradia",
+          "date": "2026-08-01T08:00:00Z",
+          "note": null,
+          "account": "Itaú",
+          "toAccount": null
+        },
+        {
+          "id": "tx_0012",
+          "type": "expense",
+          "amount": 1240.0,
+          "description": "Compras Mês Carrefour",
+          "category": "Alimentação",
+          "date": "2026-08-12T16:00:00Z",
+          "note": null,
+          "account": "Nubank",
+          "toAccount": null
+        },
+        {
+          "id": "tx_0013",
+          "type": "expense",
+          "amount": 450.0,
+          "description": "Revisão Carro",
+          "category": "Transporte",
+          "date": "2026-08-20T11:00:00Z",
+          "note": null,
+          "account": "Itaú",
+          "toAccount": null
+        }
+      ]
+    },
+    {
+      "id": "usr_02",
+      "name": "Bruno Souza",
+      "email": "bruno@bettercash.dev",
+      "password": "123456",
+      "avatarUrl": "https://i.pravatar.cc/150?img=12",
+      "createdAt": "2024-05-20T14:00:00Z",
+      "transactions": [
+        {
+          "id": "tx_0014",
+          "type": "income",
+          "amount": 6200.0,
+          "description": "Salário Logística Brasil",
+          "category": "Salário",
+          "date": "2026-09-05T14:46:00Z",
+          "note": null,
+          "account": "Itaú",
+          "toAccount": null
+        },
+        {
+          "id": "tx_0015",
+          "type": "expense",
+          "amount": 401.56,
+          "description": "Mercado Pão de Açúcar",
+          "category": "Alimentação",
+          "date": "2026-09-27T15:08:00Z",
+          "note": null,
+          "account": "Carteira",
+          "toAccount": null
+        },
+        {
+          "id": "tx_0016",
+          "type": "expense",
+          "amount": 305.02,
+          "description": "Combustível Shell",
+          "category": "Transporte",
+          "date": "2026-09-14T20:43:00Z",
+          "note": null,
+          "account": "Nubank",
+          "toAccount": null
+        },
+        {
+          "id": "tx_0017",
+          "type": "transfer",
+          "amount": 500.0,
+          "description": "Transferência para Nubank",
+          "category": null,
+          "date": "2026-09-03T09:14:00Z",
+          "note": null,
+          "account": "Itaú",
+          "toAccount": "Nubank"
+        }
+      ]
+    }
+  ]
+}

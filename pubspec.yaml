@@ -34,6 +34,9 @@ dependencies:
   carteira_design_system:
     path: packages/components/design_system
 
+  carteira_core:
+    path: packages/core/carteira_core
+
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
@@ -62,6 +65,7 @@ flutter:
 
   assets:
     - assets/logo.png
+    - seed.json
 
   # To add assets to your application, add an assets section, like this:
   # assets:
